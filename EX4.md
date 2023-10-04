@@ -40,7 +40,7 @@ END;
  select *from employee;
 ```
 ### Output:
-![out](4a.png)
+![out](4aa.png)
 
 ![out](4b.png)
 
