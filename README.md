@@ -12,7 +12,7 @@
 6. Display the employee table
 
 ### Program:
-
+```sql
 CREATE TABLE employee (empid NUMBER, empname VARCHAR2(10), dept VARCHAR2(10), salary NUMBER);
 
 CREATE OR REPLACE PROCEDURE insert_employee_data(
@@ -28,7 +28,8 @@ BEGIN
   COMMIT;
 END;
 /
-
+```
+```sql
 BEGIN
   insert_employee_data(1, 'Suzuka', 'HR', 50000);
   insert_employee_data(2, 'Nobita', 'IT', 60000);
@@ -39,7 +40,7 @@ END;
 /
 
  select *from employee;
-
+```
 ### Output:
 ![out](4aa.png)
 
